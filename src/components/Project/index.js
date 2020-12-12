@@ -4,16 +4,20 @@ import React from 'react';
 function Project(currentPhoto) {
   const {name, description, link, github, id} = currentPhoto;
   return (
-    <div>
-      <div className="img-container">
-        <a href={link}>{description}</a>
-        <a href={github}>/ github</a>
+      <div>
+        {
+          name.length <= 8 ? (
+            <React.Fragment>
+              <a href={link}>{description}</a>
+              <a href={github}>| github</a>
+            </React.Fragment>
+          ) : (<a>{description}</a>)
+        }
         <img alt={description} 
           src={require(`../../images/${name}-${id}.jpg`).default}
-          className="img-thumbnail mx-1" width="150"
+          className="img-thumbnail mx-1" width="100"
           />
       </div>
-    </div>
   );
 }
 

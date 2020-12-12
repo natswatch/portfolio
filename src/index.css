@@ -46,14 +46,19 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Rubik', sans-serif;
+  
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
 }
 
 h1 {
-  font-size: 2.3rem;
+  font-size: 2rem;
+}
+
+h1 a {
+  font-size: 2.2rem;
+  font-family: 'Rubik', sans-serif;
 }
 
 h2 {
@@ -82,13 +87,18 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: var(--primary);
   text-decoration: none;
   font-weight: bold;
+  font-size: 16px;
+  border-radius: 5px;
+  font-weight: 600;
+  padding: 2px 4px;
 }
 
+
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 header {
@@ -126,6 +136,7 @@ header nav ul li {
 .footer h2, .footer div {
   font-size: 15px;
 }
+
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -307,15 +318,7 @@ button {
 	padding: 10px 15px;	
 }
 
-a {
-	border-radius: 5px;
-	color: var(--primary);
-	font-weight: 600;
-	padding: 2px 4px;
-	margin-left: -2px;
-	margin-right: -2px;
-	
-}
+
 
 .navActive {
   color: var(--secondary);
