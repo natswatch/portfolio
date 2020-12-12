@@ -11,7 +11,7 @@ function Project(currentPhoto) {
               <a href={link}>{description}</a>
               <a href={github}>| github</a>
             </React.Fragment>
-          ) : (<a>{description}</a>)
+          ) : ( <a href='#'>{description}</a>)
         }
         <img alt={description} 
           src={require(`../../images/${name}-${id}.jpg`).default}
