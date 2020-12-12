@@ -117,6 +117,15 @@ header nav ul li {
   margin-left: 25px;
 }
 
+.footer {
+  padding: 30px;
+  text-align: center;
+}
+
+
+.footer h2, .footer div {
+  font-size: 15px;
+}
 button {
   font-size: 1rem;
   text-decoration: none;
