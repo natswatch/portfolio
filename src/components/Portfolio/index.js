@@ -1,12 +1,12 @@
 import React from 'react';
+import PhotoList from '../PhotoList';
 
 const Portfolio = ({currentCategory}) => {
-  
-  const { name } = currentCategory;
-
+  console.log(currentCategory);
   return (
     <section>
-      <h1>{name}</h1>
+      <h1>{currentCategory}</h1>
+      <PhotoList currentCategory={currentCategory}></PhotoList>
     </section>
   )
 }

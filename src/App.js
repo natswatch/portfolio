@@ -6,9 +6,8 @@ import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 
 function App() {
+  const categories = ["projects", "photography"];
 
-  const categories = ['projects', 'photography'];
-  
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   return (
