@@ -323,3 +323,17 @@ button {
 .navActive {
   color: var(--secondary);
 }
+
+.follow {
+  margin: 0 50px;;
+}
+
+.follow div {
+  display: inline-block;
+
+}
+
+.follow img {
+  width: 30px;
+  height: 30px;
+}
