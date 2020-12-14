@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.45c31f6d.chunk.css",
+    "main.js": "/portfolio/static/js/main.1be2e635.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1be2e635.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.cf469a33.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.cf469a33.js.map",
+    "static/js/2.516f1e00.chunk.js": "/portfolio/static/js/2.516f1e00.chunk.js",
+    "static/js/2.516f1e00.chunk.js.map": "/portfolio/static/js/2.516f1e00.chunk.js.map",
+    "static/js/3.dbfddeac.chunk.js": "/portfolio/static/js/3.dbfddeac.chunk.js",
+    "static/js/3.dbfddeac.chunk.js.map": "/portfolio/static/js/3.dbfddeac.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.45c31f6d.chunk.css.map": "/portfolio/static/css/main.45c31f6d.chunk.css.map",
+    "static/js/2.516f1e00.chunk.js.LICENSE.txt": "/portfolio/static/js/2.516f1e00.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio/static/media/Ripped_Black_Paper_6.22d97067.png",
+    "static/media/about-1.jpg": "/portfolio/static/media/about-1.cefbf0ed.jpg",
+    "static/media/ncunanan-resume-2020.b1edccf8.pdf": "/portfolio/static/media/ncunanan-resume-2020.b1edccf8.pdf",
+    "static/media/photography-0.jpg": "/portfolio/static/media/photography-0.3a9b4432.jpg",
+    "static/media/photography-1.jpg": "/portfolio/static/media/photography-1.5af11d8f.jpg",
+    "static/media/photography-2.jpg": "/portfolio/static/media/photography-2.88423126.jpg",
+    "static/media/photography-3.jpg": "/portfolio/static/media/photography-3.73f8970d.jpg",
+    "static/media/photography-4.jpg": "/portfolio/static/media/photography-4.cf9a00d5.jpg",
+    "static/media/photography-5.jpg": "/portfolio/static/media/photography-5.a63e40bd.jpg",
+    "static/media/photography-6.jpg": "/portfolio/static/media/photography-6.e1407132.jpg",
+    "static/media/projects-0.jpg": "/portfolio/static/media/projects-0.e7f55cab.jpg",
+    "static/media/projects-1.jpg": "/portfolio/static/media/projects-1.715f3a8a.jpg",
+    "static/media/projects-2.jpg": "/portfolio/static/media/projects-2.34946b9d.jpg",
+    "static/media/projects-3.jpg": "/portfolio/static/media/projects-3.e0e4baad.jpg",
+    "static/media/projects-4.jpg": "/portfolio/static/media/projects-4.134e6a62.jpg",
+    "static/media/projects-5.jpg": "/portfolio/static/media/projects-5.7e50b233.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf469a33.js",
+    "static/js/2.516f1e00.chunk.js",
+    "static/css/main.45c31f6d.chunk.css",
+    "static/js/main.1be2e635.chunk.js"
+  ]
+}
