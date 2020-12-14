@@ -179,9 +179,12 @@ button[disabled] {
 
 img {
   max-width: 80%;
-  display: inline-block;
-  
+  display: inline-block;s
   border-radius: 15px;
+}
+
+.about-me img {
+  border-radius: 50%;
 }
 
 form {
