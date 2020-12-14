@@ -42,7 +42,7 @@ const PhotoList = ({currentCategory}) => {
     console.log(currentCategory);
     //renders each photo from the category
     return (
-    <div className="flex.row">
+    <div>
         {currentPhotos.map((image) => (
           <Project name={image.name}
             description={image.description}

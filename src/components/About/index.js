@@ -3,7 +3,7 @@ import photo from '../../images/about-1.jpg'
 
 function About() {
   return (
-    <section>
+    <section >
       <div>
         <h2 id="about">about me</h2>
         <p>I am a working student based out of San Francisco. </p>

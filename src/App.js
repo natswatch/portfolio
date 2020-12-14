@@ -28,6 +28,7 @@ function App() {
         setAboutSelected={setAboutSelected}
         ></Header>
       <main>
+        <div>
         {!contactSelected && !resumeSelected && !aboutSelected ? (
           <>
             <Portfolio currentCategory={currentCategory}></Portfolio>
@@ -38,8 +39,10 @@ function App() {
           <ContactForm></ContactForm>
         ): (
         <About></About>)}
+        </div>
       </main>
         <Footer></Footer>
+
     </div>
   );
 }

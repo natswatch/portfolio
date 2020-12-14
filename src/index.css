@@ -3,11 +3,12 @@ main {
 	margin: 0 auto;
 	max-width: 90%;
   padding: 50px 30px;
+  
 }
 :root {
-  --primary: #b0a084;
+  --primary: #73683b;
   --secondary: #583e23;
-  --tertiary: #73683b;
+  --tertiary: #b0a084;
   --light: #e9e6ff;
   --dark: #13262f;
   --darker: #111111;
@@ -15,11 +16,13 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
+  
 
 }
 
 * {
   box-sizing: border-box;
+  
 }
 
 html,
@@ -27,17 +30,22 @@ body {
   min-height: 100%;
 }
 
+html {
+
+}
+
 body {
+  background-image: url('./images/Ripped_Black_Paper_6.png');
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 0;
   padding: 0;
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
   color: var(--light);
   font-family: 'PT Serif', serif;
-
 }
 
 h1,
@@ -46,7 +54,6 @@ h3,
 h4,
 h5,
 h6 {
-  
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -104,15 +111,10 @@ a:hover {
   text-decoration: none;
 }
 
-header {
-  background: var(--dark);
-  padding: 20px;
-  
-}
-
 header h1 {
   display: inline-block;
-  margin-top: 1.5rem;
+  margin-left: 2rem;
+
 }
 
 header a {
@@ -124,6 +126,7 @@ header nav {
   margin-right: 40px;
   float: right;
   font-size: 18px;
+  margin-bottom: 2rem;
 }
 
 header nav ul li {
@@ -131,8 +134,19 @@ header nav ul li {
   margin-left: 25px;
 }
 
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  top: 30;
+}
+
+
 .footer {
-  padding: 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
   text-align: center;
 }
 
@@ -140,6 +154,7 @@ header nav ul li {
 .footer h2, .footer div {
   font-size: 15px;
 }
+
 
 button {
   font-size: 1rem;
@@ -165,12 +180,8 @@ button[disabled] {
 img {
   max-width: 80%;
   display: inline-block;
-  opacity: .75;
+  
   border-radius: 15px;
-}
-
-span[role="img"] {
-  cursor: default;
 }
 
 form {
@@ -209,7 +220,10 @@ textarea {
 	border: 3px solid #cccccc;
 	padding: 5px;
 }
-
+.container-nav {
+  width: 80%;
+  margin: 0 auto;
+}
 .container {
   width: 85%;
   max-width: 1200px;
@@ -217,10 +231,7 @@ textarea {
   margin-right: auto;
 }
 
-.flex-row {
-  display: flex;
-  flex-wrap: wrap;
-}
+
 
 .space-between {
   justify-content: space-between;
@@ -255,25 +266,6 @@ textarea {
   margin-bottom: var(--spacing-five);
 }
 
-.px-1 {
-  padding-right: var(--spacing-one);
-  padding-left: var(--spacing-one);
-}
-
-.px-2 {
-  padding-right: var(--spacing-two);
-  padding-left: var(--spacing-two);
-}
-
-.py-1 {
-  padding-top: var(--spacing-one);
-  padding-bottom: var(--spacing-one);
-}
-
-.py-2 {
-  padding-top: var(--spacing-two);
-  padding-bottom: var(--spacing-two);
-}
 
 .card {
   width: 25%;
@@ -282,35 +274,11 @@ textarea {
 
 .img-thumbnail {
   width: auto;
-  height: 300px;
+  height: 200px;
   margin-bottom: 50px;
   cursor: pointer;
-}
-
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
+  border-radius: 1rem;
+  border: 0 none;
 }
 
 button {
@@ -332,7 +300,8 @@ button {
 }
 
 .follow {
-  margin: 0 50px;;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .follow div {
@@ -343,4 +312,25 @@ button {
 .follow img {
   width: 30px;
   height: 30px;
+}
+
+.module {
+  width: 500px;
+  height: 200px;
+  margin: 10px 0 10px;
+  position: relative;
+  float: left;
+  opacity: .9;
+}
+
+.lr a {
+  font-family: 'Roboto', sans-serif;
+  background: lightgray;
+  font-size: 12px;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: var(--dark);
+  margin: 0;
+  opacity: .8;
 }
