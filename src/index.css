@@ -6,7 +6,7 @@ main {
   
 }
 :root {
-  --primary: #73683b;
+  --primary: white;
   --secondary: #583e23;
   --tertiary: #b0a084;
   --light: #e9e6ff;
@@ -178,9 +178,7 @@ button[disabled] {
 }
 
 img {
-  max-width: 80%;
-  display: inline-block;s
-  border-radius: 15px;
+  max-width: 100%;
 }
 
 .about-me img {
@@ -277,10 +275,8 @@ textarea {
 
 .img-thumbnail {
   width: auto;
-  height: 200px;
-  margin-bottom: 50px;
+  height: 250px;
   cursor: pointer;
-  border-radius: 1rem;
   border: 0 none;
 }
 
@@ -318,15 +314,21 @@ button {
 }
 
 .module {
-  width: 500px;
-  height: 200px;
-  margin: 10px 0 10px;
+  width: auto;
   position: relative;
-  float: left;
+  opacity: .9;
+  display: inline-block;
+  margin: 0 20px 40px;
+  justify-content: space-around;
+
+}
+
+.module:hover .overlay {
   opacity: .9;
 }
 
-.lr a {
+
+/* .lr a {
   font-family: 'Roboto', sans-serif;
   background: lightgray;
   font-size: 12px;
@@ -336,4 +338,29 @@ button {
   color: var(--dark);
   margin: 0;
   opacity: .8;
+} */
+.text {
+  color: black;
+  font-size: 19px;
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  border-radius: 
 }
