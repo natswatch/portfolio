@@ -1,5 +1,5 @@
 import React from 'react';
-import MyPDF from '../files/ncunanan-resume-2020.pdf';
+import MyPDF from '../files/2021_resume_ncunanan.pdf';
 
 
 function Resume() {
